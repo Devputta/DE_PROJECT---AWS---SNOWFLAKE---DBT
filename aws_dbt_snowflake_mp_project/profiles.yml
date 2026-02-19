@@ -1,9 +1,9 @@
 aws_dbt_snowflake_mp_project:
   outputs:
     dev:
-      account: PRNHZIP-JL76426
+      account: ***************
       database: AIRBNB
-      password: 90081523989901885673@Mp
+      password: **************
       role: ACCOUNTADMIN
       schema: dbt_schema
       threads: 1
