@@ -1,0 +1,13 @@
+aws_dbt_snowflake_mp_project:
+  outputs:
+    dev:
+      account: PRNHZIP-JL76426
+      database: AIRBNB
+      password: 90081523989901885673@Mp
+      role: ACCOUNTADMIN
+      schema: dbt_schema
+      threads: 1
+      type: snowflake
+      user: mahadevu
+      warehouse: COMPUTE_WH
+  target: dev
